@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akshat&#39;s Portfolio Website</title>
-    <link>https://hugo-toha.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-toha.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
-      <link>https://hugo-toha.github.io/posts/bypass-twomfa/</link>
+      <link>http://localhost:1313/posts/bypass-twomfa/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/bypass-twomfa/</guid>
+      <guid>http://localhost:1313/posts/bypass-twomfa/</guid>
       <description>Read the full post on Medium
 Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about Two-Factor Authentication (2FA) and how attackers bypass this crucial layer of security.
 In this post, I’ll cover:
@@ -20,20 +20,20 @@ What 2FA is How tools like ReelPhish and others bypass it Best practices for sta
     
     <item>
       <title>Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data</title>
-      <link>https://hugo-toha.github.io/posts/cisco-duo-security-breach/</link>
+      <link>http://localhost:1313/posts/cisco-duo-security-breach/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/cisco-duo-security-breach/</guid>
+      <guid>http://localhost:1313/posts/cisco-duo-security-breach/</guid>
       <description>Read the full post on Medium
 Table of Contents Introduction Details of the Breach Impact on the CIA Triad Recommendations for Improved Security Final Thoughts Introduction On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack.</description>
     </item>
     
     <item>
       <title>From Zero to Security&#43;: My Journey, Struggles, and Success in Just One Month</title>
-      <link>https://hugo-toha.github.io/posts/from-zero-to-security-plus/</link>
+      <link>http://localhost:1313/posts/from-zero-to-security-plus/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/from-zero-to-security-plus/</guid>
+      <guid>http://localhost:1313/posts/from-zero-to-security-plus/</guid>
       <description>Heyyloo everyone!
 I’m Akshat Dharmesh Patel, a cybersecurity student. A month ago, I posted about my strategies and the plan I was going to follow to prepare for the CompTIA Security+ exam in a month&amp;hellip;
 Read more on Medium</description>

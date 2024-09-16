@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2FA on Akshat&#39;s Portfolio Website</title>
-    <link>https://hugo-toha.github.io/tags/2fa/</link>
+    <link>http://localhost:1313/tags/2fa/</link>
     <description>Recent content in 2FA on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-toha.github.io/tags/2fa/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/2fa/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
-      <link>https://hugo-toha.github.io/posts/bypass-twomfa/</link>
+      <link>http://localhost:1313/posts/bypass-twomfa/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/bypass-twomfa/</guid>
+      <guid>http://localhost:1313/posts/bypass-twomfa/</guid>
       <description>Read the full post on Medium
 Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about Two-Factor Authentication (2FA) and how attackers bypass this crucial layer of security.
 In this post, I’ll cover:
