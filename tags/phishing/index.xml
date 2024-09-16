@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phishing on Akshat&#39;s Portfolio Website</title>
+    <link>http://localhost:1313/tags/phishing/</link>
+    <description>Recent content in Phishing on Akshat&#39;s Portfolio Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/phishing/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
+      <link>http://localhost:1313/posts/bypass-twomfa/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bypass-twomfa/</guid>
+      <description>Read the full post on Medium
+Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about Two-Factor Authentication (2FA) and how attackers bypass this crucial layer of security.
+In this post, I’ll cover:
+What 2FA is How tools like ReelPhish and others bypass it Best practices for staying secure I’m not a professional yet, but I’m getting there, and I’d love your feedback.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

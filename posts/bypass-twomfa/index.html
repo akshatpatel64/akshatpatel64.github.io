@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.51f8bd41e2048305804670a150758388ec30ea874e1b2db6a6a7632105c8945f.css" integrity="sha256-Ufi9QeIEgwWARnChUHWDiOww6odOGy22pqdjIQXIlF8=" />
+
+
+
+
+
+<meta property="og:url" content="http://localhost:1313/posts/bypass-twomfa/">
+  <meta property="og:site_name" content="Akshat&#39;s Portfolio Website">
+  <meta property="og:title" content="Credentials with 2FA: How It Works and How Attackers Bypass It">
+  <meta property="og:description" content="Explore the techniques used by attackers to bypass Two-Factor Authentication (2FA), including a breakdown of ReelPhish and other sophisticated tools.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-05T00:00:00+00:00">
+    <meta property="article:tag" content="2FA">
+    <meta property="article:tag" content="Phishing">
+    <meta property="article:tag" content="Cybersecurity">
+    <meta property="article:tag" content="Medium">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Credentials with 2FA: How It Works and How Attackers Bypass It">
+  <meta name="twitter:description" content="Explore the techniques used by attackers to bypass Two-Factor Authentication (2FA), including a breakdown of ReelPhish and other sophisticated tools.">
+
+    
+    
+<meta name="description" content="Explore the techniques used by attackers to bypass Two-Factor Authentication (2FA), including a breakdown of ReelPhish and other sophisticated tools." />
+
+
+    
+
+    
+        
+            
+            
+                
+                
+                
+  
+
+
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+
+            
+        
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      Akshat&#39;s Portfolio Website</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#projects">Projects</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+            
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#featured-posts">Featured Posts</a>
+                    
+                  
+                  
+                  
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/images/author/Untitled%20%281%29_hu4852657353220551373.jpg' alt="Author Image">
+          <h5 class="author-name">Akshat Dharmesh Patel</h5>
+          <p class="text-muted">Thursday, September 5, 2024 | 3 minutes</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>Credentials with 2FA: How It Works and How Attackers Bypass It</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/2fa/" class="btn btn-sm btn-info">2FA</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/phishing/" class="btn btn-sm btn-info">Phishing</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/cybersecurity/" class="btn btn-sm btn-info">Cybersecurity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/medium/" class="btn btn-sm btn-info">Medium</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data -->
+<p><a href="https://medium.com/@patelaksht24/credentials-with-2fa-how-it-works-and-how-attackers-bypass-it-1ff4a0133fb2" target="_blank" rel="noopener">Read the full post on Medium</a></p>
+<!-- Add the rest of your content here -->
+<!-- 
+For Better Reading Experience Please Visit to my Medium page at https://medium.com/@patelaksht24
+
+Article Link: https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256 -->
+<p>Hello everyone! I’m Akshat Patel, pursuing a master&rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about <strong>Two-Factor Authentication (2FA)</strong> and how attackers bypass this crucial layer of security.</p>
+<p>In this post, I’ll cover:</p>
+<ol>
+<li>What 2FA is</li>
+<li>How tools like <strong>ReelPhish</strong> and others bypass it</li>
+<li>Best practices for staying secure</li>
+</ol>
+<p>I’m not a professional yet, but I’m getting there, and I’d love your feedback. Feel free to <a href="https://www.linkedin.com/in/akshat-patel64" target="_blank" rel="noopener">connect with me on LinkedIn</a>.</p>
+<h3 id="quick-summary">Quick Summary:</h3>
+<ul>
+<li><strong>ReelPhish</strong>: A tool developed by FireEye that clones a 2FA-required site, captures login traffic with tools like Burp Suite, and automates the 2FA bypass.</li>
+<li>Victims unknowingly provide credentials through a fake login page, triggering 2FA on the real site.</li>
+<li>ReelPhish captures the 2FA code, and the attacker authenticates seamlessly.</li>
+</ul>
+<h3 id="what-is-two-factor-authentication-2fa">What is Two-Factor Authentication (2FA)?</h3>
+<p>2FA is like an extra lock for your online accounts. You need both a <strong>password</strong> (something you know) and a <strong>code sent to your phone</strong> (something you have). This combination makes it harder for attackers to access your accounts even if they have your password.</p>
+<blockquote>
+<p><em>But as strong as it is, attackers are getting smarter&hellip;</em></p>
+</blockquote>
+<h3 id="the-challenge-of-bypassing-2fa">The Challenge of Bypassing 2FA</h3>
+<p>While 2FA is a great security measure, it isn’t bulletproof. Attackers have developed tools that specifically target and bypass 2FA defenses. One of the most popular tools is <strong>ReelPhish</strong>.</p>
+<h3 id="how-reelphish-bypasses-2fa">How ReelPhish Bypasses 2FA</h3>
+<p>Here’s how attackers use ReelPhish to bypass 2FA during phishing attacks:</p>
+<ol>
+<li><strong>Clone the Target Site</strong>: Attackers set up a fake version of the site that looks identical to the original.</li>
+<li><strong>Analyze Login Traffic</strong>: Using tools like Burp Suite, attackers capture and analyze the real site&rsquo;s login traffic.</li>
+<li><strong>Configure ReelPhish</strong>: The cloned site is integrated with ReelPhish to automate the process of logging into the real site.</li>
+<li><strong>Handle 2FA Automatically</strong>: When victims log in on the cloned site, ReelPhish captures the credentials and logs into the real site, handling the 2FA prompt.</li>
+<li><strong>Redirect the Victim</strong>: Victims are redirected to the real site, believing they made a mistake. Meanwhile, ReelPhish captures their 2FA code and session details.</li>
+</ol>
+<h3 id="other-tools-for-bypassing-2fa">Other Tools for Bypassing 2FA</h3>
+<ul>
+<li><strong>Evilginx</strong>: A man-in-the-middle tool that captures authentication tokens. <a href="https://github.com/kgretzky/evilginx2" target="_blank" rel="noopener">Explore Evilginx on GitHub</a></li>
+<li><strong>CredSniper</strong>: A tool designed to simulate login flows and capture credentials. <a href="https://github.com/ustayready/CredSniper" target="_blank" rel="noopener">Check CredSniper on GitHub</a></li>
+</ul>
+<h3 id="why-is-2fa-still-important">Why is 2FA Still Important?</h3>
+<p>Even though tools like ReelPhish can bypass 2FA, it’s still a critical layer of security. The extra complexity forces attackers to work harder and gives you more time to respond to potential threats.</p>
+<h3 id="best-practices-for-handling-2fa">Best Practices for Handling 2FA</h3>
+<ol>
+<li><strong>Verify All Authentication Methods</strong>: Ensure 2FA is applied consistently across all access points, including APIs and legacy systems.</li>
+<li><strong>Secure Your Data</strong>: Always handle captured data ethically and ensure compliance with legal requirements.</li>
+</ol>
+<h3 id="final-thoughts">Final Thoughts</h3>
+<p>2FA is an important security measure that adds a robust layer of protection to your accounts. Understanding tools like ReelPhish helps us build stronger defenses and stay ahead of attackers. Stay informed, and always practice good security hygiene!</p>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Share on:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f&text=Credentials%20with%202FA%3a%20How%20It%20Works%20and%20How%20Attackers%20Bypass%20It&via=Akshat%27s%20Portfolio%20Website" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f&title=Credentials%20with%202FA%3a%20How%20It%20Works%20and%20How%20Attackers%20Bypass%20It" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f&title=Credentials%20with%202FA%3a%20How%20It%20Works%20and%20How%20Attackers%20Bypass%20It" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Credentials%20with%202FA%3a%20How%20It%20Works%20and%20How%20Attackers%20Bypass%20It http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=Credentials%20with%202FA%3a%20How%20It%20Works%20and%20How%20Attackers%20Bypass%20It&body=http%3a%2f%2flocalhost%3a1313%2fposts%2fbypass-twomfa%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/hugo-toha/hugo-toha.github.io/edit/main/content/posts/bypass-twomfa.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center ps-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#quick-summary">Quick Summary:</a></li>
+        <li><a href="#what-is-two-factor-authentication-2fa">What is Two-Factor Authentication (2FA)?</a></li>
+        <li><a href="#the-challenge-of-bypassing-2fa">The Challenge of Bypassing 2FA</a></li>
+        <li><a href="#how-reelphish-bypasses-2fa">How ReelPhish Bypasses 2FA</a></li>
+        <li><a href="#other-tools-for-bypassing-2fa">Other Tools for Bypassing 2FA</a></li>
+        <li><a href="#why-is-2fa-still-important">Why is 2FA Still Important?</a></li>
+        <li><a href="#best-practices-for-handling-2fa">Best Practices for Handling 2FA</a></li>
+        <li><a href="#final-thoughts">Final Thoughts</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+<button id="theme-toggle" class="theme-toggle-btn" onclick="toggleTheme()">🌓</button>
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#featured-posts">Featured Posts</a>
+                </li>
+              
+              
+              
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:patelaksht24@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>patelaksht24@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/akshatpatel64 target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>akshatpatel64</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/akshat-patel64 target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Akshat Dharmesh Patel</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;12403517070</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2024 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.3d575240608fdfd31e5705397e43026a3db0be0a76f28a22ec3369f843e46ac8.js" integrity="sha256-PVdSQGCP39MeVwU5fkMCaj2wvgp28ooi7DNp&#43;EPkasg=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>
