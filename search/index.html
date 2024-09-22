@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Search Results</title>
+    <title>Resultados de Búsqueda</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.9b9342080d6c469bf44748bc72b47ec075a124fe0c6e6ff0f13d20c757e4d5a9.css" integrity="sha256-m5NCCA1sRpv0R0i8crR&#43;wHWhJP4Mbm/w8T0gx1fk1ak=" />
+<link rel="stylesheet" href="/application.90a71a31757d2aaa34176b49606aaa6157ca9a56d62aaf8f0406ee5f4f9ae2a6.css" integrity="sha256-kKcaMXV9Kqo0F2tJYGqqYVfKmlbWKq&#43;PBAbuX0&#43;a4qY=" />
 
 
 
 
+
+  
+
+  
+  
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/Logo2.svg" />
 
 <meta property="og:url" content="https://akshatpatel64.github.io/search/">
   <meta property="og:site_name" content="Akshat&#39;s Portfolio Website">
-  <meta property="og:title" content="Search Results">
-  <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta property="og:title" content="Resultados de Búsqueda">
+  <meta property="og:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="search">
@@ -28,12 +37,12 @@ Initial setup Search depends on additional output content type of JSON in config
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Search Results">
-  <meta name="twitter:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta name="twitter:title" content="Resultados de Búsqueda">
+  <meta name="twitter:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.">
 
     
      
@@ -103,11 +112,23 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+  
+
+
+  
 
 
 
 
+  
+  
+  
 
+
+
+  
+  
+  
 
 
 
@@ -134,6 +155,8 @@ Initial setup Search depends on additional output content type of JSON in config
     </button>
     
     <a class="navbar-brand" href="/">
+      
+        <img src="/images/V.svg" id="logo" alt="Logo">
       Akshat&#39;s Portfolio Website</a>
     <button
       class="navbar-toggler navbar-light"
@@ -200,6 +223,10 @@ Initial setup Search depends on additional output content type of JSON in config
             
             
             
+              
+              
+            
+            
             
           
           <li class="nav-item dropdown">
@@ -234,6 +261,12 @@ Initial setup Search depends on additional output content type of JSON in config
                     
                   
                   
+                    
+                    
+                      <a class="dropdown-item" href="/#whats-keeping-me-busy">Current Focus</a>
+                    
+                  
+                  
                   
                   
               </div>
@@ -257,6 +290,10 @@ Initial setup Search depends on additional output content type of JSON in config
   </div>
   
   
+    <img src="/images/V.svg" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/V.svg" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -443,6 +480,15 @@ Initial setup Search depends on additional output content type of JSON in config
                 
                 <li class="nav-item">
                   <a class="smooth-scroll" href="https://akshatpatel64.github.io/#featured-posts">Featured Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://akshatpatel64.github.io/#whats-keeping-me-busy">Current Focus</a>
                 </li>
               
               
