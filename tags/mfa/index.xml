@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MFA on Akshat&#39;s Portfolio Website</title>
-    <link>https://akshatpatel64.github.io/tags/mfa/</link>
+    <link>http://localhost:1313/tags/mfa/</link>
     <description>Recent content in MFA on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://akshatpatel64.github.io/tags/mfa/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mfa/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data</title>
-      <link>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</link>
+      <link>http://localhost:1313/posts/cisco-duo-security-breach/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
+      <guid>http://localhost:1313/posts/cisco-duo-security-breach/</guid>
       <description>Read the full post on Medium
 Table of Contents Introduction Details of the Breach Impact on the CIA Triad Recommendations for Improved Security Final Thoughts Introduction On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack.</description>
     </item>
