@@ -2,16 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akshat&#39;s Portfolio Website</title>
-    <link>http://localhost:1313/</link>
+    <link>https://akshatpatel64.github.io/</link>
     <description>Recent content on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://akshatpatel64.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>TryHackMe: Anonymous Walkthrough</title>
+      <link>https://akshatpatel64.github.io/posts/tryhackme-anonymous/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://akshatpatel64.github.io/posts/tryhackme-anonymous/</guid>
+      <description>Read the full post on Medium
+Hello, everyone! I’m Akshat Patel, a cybersecurity master’s student and a hands-on learner with a passion for ethical hacking and system exploitation.
+Today, I’m walking you through the TryHackMe: Anonymous room. This is an engaging challenge that tests your skills in enumeration, FTP exploitation, and privilege escalation. Let’s get started!
+🧠 Step 1: Network Enumeration with Nmap nmap -p- 10.10.101.101 Findings:
+Port 21: FTP Ports 139 &amp;amp; 445: SMB 📁 Step 2: SMB Enumeration smbclient -L 10.</description>
+    </item>
+    
+    <item>
+      <title>Embracing the Journey: My Life as a Cybersecurity Student and Aspirations for the Future</title>
+      <link>https://akshatpatel64.github.io/posts/journey-of-akshat/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://akshatpatel64.github.io/posts/journey-of-akshat/</guid>
+      <description>Read the full post on Medium
+Hello, everyone! My name is Akshat Dharmesh Patel, an Indian guy who’s recently adopted the nickname “AK” after realizing how tricky my full name can be for my American friends to pronounce. Currently, I’m pursuing my master’s in cybersecurity at the University of Maryland, College Park, and what a journey it’s been! Full of surprises, challenges, and growth, I’m here to share some of my experiences with you.</description>
+    </item>
+    
+    <item>
       <title>Advent of Cyber 2024 — Day 24: Restoring the Light of SOC-mas</title>
-      <link>http://localhost:1313/posts/day23-adventofcyber-24/</link>
+      <link>https://akshatpatel64.github.io/posts/day23-adventofcyber-24/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/day23-adventofcyber-24/</guid>
+      <guid>https://akshatpatel64.github.io/posts/day23-adventofcyber-24/</guid>
       <description>Read the full post on Medium
 Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m passionate about learning, solving challenges, and sharing insights. Today, I’ll take you through my experience with Day 24 of Advent of Cyber 2024, where we restored the lights of a smart city sabotaged by Mayor Malware!
 The Story: A Smart City Under Attack Wareville, a leading smart city, faced a crisis: Mayor Malware sabotaged the city’s IoT-powered smart lights, leaving the city in darkness during SOC-mas festivities.</description>
@@ -19,10 +42,10 @@ The Story: A Smart City Under Attack Wareville, a leading smart city, faced a cr
     
     <item>
       <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
-      <link>http://localhost:1313/posts/bypass-twomfa/</link>
+      <link>https://akshatpatel64.github.io/posts/bypass-twomfa/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bypass-twomfa/</guid>
+      <guid>https://akshatpatel64.github.io/posts/bypass-twomfa/</guid>
       <description>Read the full post on Medium
 Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about Two-Factor Authentication (2FA) and how attackers bypass this crucial layer of security.
 In this post, I’ll cover:
@@ -31,20 +54,20 @@ What 2FA is How tools like ReelPhish and others bypass it Best practices for sta
     
     <item>
       <title>Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data</title>
-      <link>http://localhost:1313/posts/cisco-duo-security-breach/</link>
+      <link>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/cisco-duo-security-breach/</guid>
+      <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
       <description>Read the full post on Medium
 Table of Contents Introduction Details of the Breach Impact on the CIA Triad Recommendations for Improved Security Final Thoughts Introduction On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack.</description>
     </item>
     
     <item>
       <title>From Zero to Security&#43;: My Journey, Struggles, and Success in Just One Month</title>
-      <link>http://localhost:1313/posts/from-zero-to-security-plus/</link>
+      <link>https://akshatpatel64.github.io/posts/from-zero-to-security-plus/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/from-zero-to-security-plus/</guid>
+      <guid>https://akshatpatel64.github.io/posts/from-zero-to-security-plus/</guid>
       <description>Heyyloo everyone!
 I’m Akshat Dharmesh Patel, a cybersecurity student. A month ago, I posted about my strategies and the plan I was going to follow to prepare for the CompTIA Security+ exam in a month&amp;hellip;
 Read more on Medium</description>
