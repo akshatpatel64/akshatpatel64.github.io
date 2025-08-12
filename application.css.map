@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "application.css",
-	"sourceRoot": "/Users/akshatpatel/Documents/College_UMD/Portfolio /portfolio",
+	"sourceRoot": "/Users/akshat64/Documents/Portfolio/portfolio",
 	"sources": [
 		"assets/styles/application.template.scss",
 		"node_modules/bootstrap/scss/bootstrap.scss",

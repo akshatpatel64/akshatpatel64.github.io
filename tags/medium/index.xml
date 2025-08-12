@@ -12,9 +12,10 @@
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/day23-adventofcyber-24/</guid>
-      <description>Read the full post on Medium
-Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m passionate about learning, solving challenges, and sharing insights. Today, I’ll take you through my experience with Day 24 of Advent of Cyber 2024, where we restored the lights of a smart city sabotaged by Mayor Malware!
-The Story: A Smart City Under Attack Wareville, a leading smart city, faced a crisis: Mayor Malware sabotaged the city’s IoT-powered smart lights, leaving the city in darkness during SOC-mas festivities.</description>
+      <description>&lt;!-- The Advent of Cyber challenges combine festive fun with cybersecurity problem-solving. This post explores Day 24: &#34;Restoring the Light of SOC-mas&#34;. --&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/advent-of-cyber-2024-day-24-restoring-the-light-of-soc-mas-b9b4d75628f4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
+&lt;!-- Add the rest of your content here --&gt;
+&lt;p&gt;Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m passionate about learning, solving challenges, and sharing insights. Today, I’ll take you through my experience with Day 24 of &lt;strong&gt;Advent of Cyber 2024&lt;/strong&gt;, where we restored the lights of a smart city sabotaged by Mayor Malware!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,10 +24,14 @@ The Story: A Smart City Under Attack Wareville, a leading smart city, faced a cr
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/bypass-twomfa/</guid>
-      <description>Read the full post on Medium
-Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about Two-Factor Authentication (2FA) and how attackers bypass this crucial layer of security.
-In this post, I’ll cover:
-What 2FA is How tools like ReelPhish and others bypass it Best practices for staying secure I’m not a professional yet, but I’m getting there, and I’d love your feedback.</description>
+      <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/credentials-with-2fa-how-it-works-and-how-attackers-bypass-it-1ff4a0133fb2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
+&lt;!-- Add the rest of your content here --&gt;
+&lt;!-- 
+For Better Reading Experience Please Visit to my Medium page at https://medium.com/@patelaksht24
+
+Article Link: https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256 --&gt;
+&lt;p&gt;Hello everyone! I’m Akshat Patel, pursuing a master&amp;rsquo;s in cybersecurity. I’m constantly learning and sharing insights with others. Today, I want to talk about &lt;strong&gt;Two-Factor Authentication (2FA)&lt;/strong&gt; and how attackers bypass this crucial layer of security.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,8 +40,21 @@ What 2FA is How tools like ReelPhish and others bypass it Best practices for sta
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
-      <description>Read the full post on Medium
-Table of Contents Introduction Details of the Breach Impact on the CIA Triad Recommendations for Improved Security Final Thoughts Introduction On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack.</description>
+      <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+For a better reading experience, please visit my Medium page at https://medium.com/@patelaksht24
+--&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#details-of-the-breach&#34;&gt;Details of the Breach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#impact-on-the-cia-triad&#34;&gt;Impact on the CIA Triad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#recommendations-for-improved-security&#34;&gt;Recommendations for Improved Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#final-thoughts&#34;&gt;Final Thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack. Cisco Duo did not disclose the identity of the telephone provider used for sending MFA messages. The breach involved accessing a series of MFA SMS messages containing sensitive Personally Identifiable Information (PII) such as contact numbers, phone carriers, citizenship status, states, and metadata including the date and time of message generation. However, the breached data did not include the content of the messages or any unauthorized message transmissions.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,9 +63,9 @@ Table of Contents Introduction Details of the Breach Impact on the CIA Triad Rec
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/from-zero-to-security-plus/</guid>
-      <description>Heyyloo everyone!
-I’m Akshat Dharmesh Patel, a cybersecurity student. A month ago, I posted about my strategies and the plan I was going to follow to prepare for the CompTIA Security+ exam in a month&amp;hellip;
-Read more on Medium</description>
+      <description>&lt;p&gt;Heyyloo everyone!&lt;/p&gt;
+&lt;p&gt;I’m Akshat Dharmesh Patel, a cybersecurity student. A month ago, I posted about my strategies and the plan I was going to follow to prepare for the CompTIA Security+ exam in a month&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/from-zero-to-security-my-journey-struggles-and-success-in-just-one-month-8348fa4bd32a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read more on Medium&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     

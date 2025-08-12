@@ -12,8 +12,21 @@
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
-      <description>Read the full post on Medium
-Table of Contents Introduction Details of the Breach Impact on the CIA Triad Recommendations for Improved Security Final Thoughts Introduction On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack.</description>
+      <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+For a better reading experience, please visit my Medium page at https://medium.com/@patelaksht24
+--&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#details-of-the-breach&#34;&gt;Details of the Breach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#impact-on-the-cia-triad&#34;&gt;Impact on the CIA Triad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#recommendations-for-improved-security&#34;&gt;Recommendations for Improved Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#final-thoughts&#34;&gt;Final Thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack. Cisco Duo did not disclose the identity of the telephone provider used for sending MFA messages. The breach involved accessing a series of MFA SMS messages containing sensitive Personally Identifiable Information (PII) such as contact numbers, phone carriers, citizenship status, states, and metadata including the date and time of message generation. However, the breached data did not include the content of the messages or any unauthorized message transmissions.&lt;/p&gt;</description>
     </item>
     
     

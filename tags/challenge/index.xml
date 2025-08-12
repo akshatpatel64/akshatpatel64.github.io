@@ -12,11 +12,15 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://akshatpatel64.github.io/posts/tryhackme-anonymous/</guid>
-      <description>Read the full post on Medium
-Hello, everyone! I’m Akshat Patel, a cybersecurity master’s student and a hands-on learner with a passion for ethical hacking and system exploitation.
-Today, I’m walking you through the TryHackMe: Anonymous room. This is an engaging challenge that tests your skills in enumeration, FTP exploitation, and privilege escalation. Let’s get started!
-🧠 Step 1: Network Enumeration with Nmap nmap -p- 10.10.101.101 Findings:
-Port 21: FTP Ports 139 &amp;amp; 445: SMB 📁 Step 2: SMB Enumeration smbclient -L 10.</description>
+      <description>&lt;!-- TryHackMe: Anonymous Walkthrough --&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/tryhackme-anonymous-walkthrough-83559baeb880&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+For Better Reading Experience Please Visit my Medium page: https://medium.com/@patelaksht24
+
+Direct Article Link: https://medium.com/@patelaksht24/tryhackme-anonymous-walkthrough-83559baeb880 
+--&gt;
+&lt;p&gt;Hello, everyone! I’m Akshat Patel, a cybersecurity master’s student and a hands-on learner with a passion for ethical hacking and system exploitation.&lt;/p&gt;
+&lt;p&gt;Today, I’m walking you through the &lt;strong&gt;TryHackMe: Anonymous&lt;/strong&gt; room. This is an engaging challenge that tests your skills in &lt;strong&gt;enumeration, FTP exploitation&lt;/strong&gt;, and &lt;strong&gt;privilege escalation&lt;/strong&gt;. Let’s get started!&lt;/p&gt;</description>
     </item>
     
     
