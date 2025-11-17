@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cisco on Akshat&#39;s Portfolio Website</title>
-    <link>https://akshatpatel64.github.io/tags/cisco/</link>
+    <link>http://localhost:1313/tags/cisco/</link>
     <description>Recent content in Cisco on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://akshatpatel64.github.io/tags/cisco/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cisco/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data</title>
-      <link>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</link>
+      <link>http://localhost:1313/posts/cisco-duo-security-breach/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
+      <guid>http://localhost:1313/posts/cisco-duo-security-breach/</guid>
       <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
 &lt;!-- 
