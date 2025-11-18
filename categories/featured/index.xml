@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Featured on Akshat&#39;s Portfolio Website</title>
-    <link>http://localhost:1313/categories/featured/</link>
+    <link>https://akshatpatel64.github.io/categories/featured/</link>
     <description>Recent content in Featured on Akshat&#39;s Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/featured/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://akshatpatel64.github.io/categories/featured/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>TryHackMe: Anonymous Walkthrough</title>
-      <link>http://localhost:1313/posts/tryhackme-anonymous/</link>
+      <link>https://akshatpatel64.github.io/posts/tryhackme-anonymous/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/tryhackme-anonymous/</guid>
+      <guid>https://akshatpatel64.github.io/posts/tryhackme-anonymous/</guid>
       <description>&lt;!-- TryHackMe: Anonymous Walkthrough --&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/tryhackme-anonymous-walkthrough-83559baeb880&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
 &lt;!-- 
@@ -25,10 +25,10 @@ Direct Article Link: https://medium.com/@patelaksht24/tryhackme-anonymous-walkth
     
     <item>
       <title>Embracing the Journey: My Life as a Cybersecurity Student and Aspirations for the Future</title>
-      <link>http://localhost:1313/posts/journey-of-akshat/</link>
+      <link>https://akshatpatel64.github.io/posts/journey-of-akshat/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/journey-of-akshat/</guid>
+      <guid>https://akshatpatel64.github.io/posts/journey-of-akshat/</guid>
       <description>&lt;!-- Embracing the Journey: My Life as a Cybersecurity Student and Aspirations for the Future --&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/from-akshat-to-ak-a-journey-through-cybersecurity-and-self-discovery-e365d169eb03&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Add the rest of your content here --&gt;
@@ -41,10 +41,10 @@ Article Link: https://medium.com/@patelaksht24/embracing-the-journey-my-life-as-
     
     <item>
       <title>Advent of Cyber 2024 — Day 24: Restoring the Light of SOC-mas</title>
-      <link>http://localhost:1313/posts/day23-adventofcyber-24/</link>
+      <link>https://akshatpatel64.github.io/posts/day23-adventofcyber-24/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/day23-adventofcyber-24/</guid>
+      <guid>https://akshatpatel64.github.io/posts/day23-adventofcyber-24/</guid>
       <description>&lt;!-- The Advent of Cyber challenges combine festive fun with cybersecurity problem-solving. This post explores Day 24: &#34;Restoring the Light of SOC-mas&#34;. --&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/advent-of-cyber-2024-day-24-restoring-the-light-of-soc-mas-b9b4d75628f4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Add the rest of your content here --&gt;
@@ -53,10 +53,10 @@ Article Link: https://medium.com/@patelaksht24/embracing-the-journey-my-life-as-
     
     <item>
       <title>Credentials with 2FA: How It Works and How Attackers Bypass It</title>
-      <link>http://localhost:1313/posts/bypass-twomfa/</link>
+      <link>https://akshatpatel64.github.io/posts/bypass-twomfa/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bypass-twomfa/</guid>
+      <guid>https://akshatpatel64.github.io/posts/bypass-twomfa/</guid>
       <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/credentials-with-2fa-how-it-works-and-how-attackers-bypass-it-1ff4a0133fb2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Add the rest of your content here --&gt;
@@ -69,33 +69,20 @@ Article Link: https://medium.com/@patelaksht24/cisco-duo-security-breach-third-p
     
     <item>
       <title>Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data</title>
-      <link>http://localhost:1313/posts/cisco-duo-security-breach/</link>
+      <link>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/cisco-duo-security-breach/</guid>
-      <description>&lt;!-- Cisco Duo Security Breach: Third-Party Vendor Compromised, Exposing MFA SMS and VOIP Data --&gt;
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 
-For a better reading experience, please visit my Medium page at https://medium.com/@patelaksht24
---&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#details-of-the-breach&#34;&gt;Details of the Breach&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#impact-on-the-cia-triad&#34;&gt;Impact on the CIA Triad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#recommendations-for-improved-security&#34;&gt;Recommendations for Improved Security&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#final-thoughts&#34;&gt;Final Thoughts&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. The compromise occurred through an unnamed service provider, whose internal systems were accessed by threat actors using credentials obtained via a phishing attack. Cisco Duo did not disclose the identity of the telephone provider used for sending MFA messages. The breach involved accessing a series of MFA SMS messages containing sensitive Personally Identifiable Information (PII) such as contact numbers, phone carriers, citizenship status, states, and metadata including the date and time of message generation. However, the breached data did not include the content of the messages or any unauthorized message transmissions.&lt;/p&gt;</description>
+      <guid>https://akshatpatel64.github.io/posts/cisco-duo-security-breach/</guid>
+      <description>&lt;p&gt;On April 1, 2024, Duo by Cisco notified its customers about a significant security breach involving a third-party vendor responsible for handling SMS and VOIP multi-factor authentication (MFA) messages. A compromised provider exposed logs containing sensitive metadata and limited PII tied to MFA delivery.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/cisco-duo-security-breach-third-party-vendor-compromised-exposing-mfa-sms-and-voip-data-c707026cc256&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the full post on Medium&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>From Zero to Security&#43;: My Journey, Struggles, and Success in Just One Month</title>
-      <link>http://localhost:1313/posts/from-zero-to-security-plus/</link>
+      <link>https://akshatpatel64.github.io/posts/from-zero-to-security-plus/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/from-zero-to-security-plus/</guid>
+      <guid>https://akshatpatel64.github.io/posts/from-zero-to-security-plus/</guid>
       <description>&lt;p&gt;Heyyloo everyone!&lt;/p&gt;
 &lt;p&gt;I’m Akshat Dharmesh Patel, a cybersecurity student. A month ago, I posted about my strategies and the plan I was going to follow to prepare for the CompTIA Security+ exam in a month&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@patelaksht24/from-zero-to-security-my-journey-struggles-and-success-in-just-one-month-8348fa4bd32a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read more on Medium&lt;/a&gt;&lt;/p&gt;</description>
